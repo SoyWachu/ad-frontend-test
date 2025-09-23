@@ -1,9 +1,12 @@
 import Catalog from "@/components/Catalog/Catalog";
+import { Suspense } from "react";
 
-export default async function Home() {
+export default function Home() {
   return (
     <main>
-      <Catalog />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Catalog />
+      </Suspense>
     </main>
   );
 }
