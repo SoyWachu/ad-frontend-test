@@ -229,7 +229,7 @@ exports[`CartPage matches snapshot 1`] = `
           </div>
         </div>
         <button
-          class="mt-4 w-full bg-gray-700 text-white py-3 rounded-lg hover:bg-gray-800 transition"
+          class="mt-4 w-full bg-[#585660] text-white py-3 rounded-lg hover:bg-gray-800 transition"
         >
           Checkout
         </button>

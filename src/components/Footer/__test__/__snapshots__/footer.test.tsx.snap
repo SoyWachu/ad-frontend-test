@@ -3,7 +3,7 @@
 exports[`Footer matches snapshot 1`] = `
 <div>
   <footer
-    class="flex justify-center items-center py-16 bg-gray-900 text-white bg-footer"
+    class="flex justify-center items-center py-16 text-white bg-footer"
   >
     <a
       href="/"
