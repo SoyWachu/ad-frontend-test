@@ -2,6 +2,7 @@
 import React from "react";
 import { useApp } from "@/app/context/AppContext/AppContext";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CartPage() {
   const { state, dispatch } = useApp();
@@ -47,7 +48,7 @@ export default function CartPage() {
                 className="flex flex-col sm:flex-row gap-4 border-b p-4 transition hover:bg-gray-50 w-[95%]"
               >
                 <div className="flex justify-between items-start w-full sm:w-auto">
-                  <img
+                  <Image
                     src={item.imageUrl}
                     alt={item.title}
                     className="w-full sm:w-72 h-54 sm:h-40 object-cover"
