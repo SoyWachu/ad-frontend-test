@@ -6,9 +6,10 @@ export default {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
     "\\.(css|less|scss|sass)$": "identity-obj-proxy",
-    "\\.(png|jpg|jpeg|gif|svg)$": "<rootDir>/src/__mocks__/fileMock.ts",
+    "\\.(png|jpg|jpeg|gif|svg)$": "<rootDir>/src/__mocks__/fileMock.js",
     "^next/image$": "<rootDir>/src/__mocks__/nextImageMock.tsx",
     "^next/link$": "<rootDir>/src/__mocks__/nextLinkMock.tsx",
+    "^next/navigation$": "<rootDir>/src/__mocks__/nextNavigationMock.ts",
   },
   setupFilesAfterEnv: ["<rootDir>/src/test/setup.ts"],
   transform: {
