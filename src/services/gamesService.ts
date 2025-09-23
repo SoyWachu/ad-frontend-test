@@ -19,11 +19,12 @@ export async function getGames(
   page: number = 1,
   genre?: string
 ): Promise<GamesResponse> {
+  const apiBase = process.env.NEXT_PUBLIC_API_URL;
   const params = new URLSearchParams();
   params.append("page", page.toString());
   if (genre) params.append("genre", genre);
 
-  const res = await fetch(`/api/games?${params.toString()}`, {
+  const res = await fetch(`${apiBase}/games?${params.toString()}`, {
     method: "GET",
   });
 
