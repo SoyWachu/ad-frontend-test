@@ -13,7 +13,7 @@ export default {
   },
   setupFilesAfterEnv: ["<rootDir>/src/test/setup.ts"],
   transform: {
-    "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.json" }],
+    "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.jest.json" }],
   },
   transformIgnorePatterns: ["/node_modules/"],
 };
