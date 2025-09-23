@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer matches snapshot 1`] = `
+<div>
+  <footer
+    class="flex justify-center items-center py-16 bg-gray-900 text-white bg-footer"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Logo Apply Digital"
+        class="h-10"
+        height="44"
+        src="/logos/apply-digital-logo.png"
+        width="170"
+      />
+    </a>
+  </footer>
+</div>
+`;

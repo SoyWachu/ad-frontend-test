@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CartPage matches snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-6 p-6 px-5 sm:px-5 lg:px-32"
+  >
+    <div
+      class="flex justify-between items-center"
+    >
+      <a
+        href="/"
+      >
+        <span>
+          ← Back to Catalog
+        </span>
+      </a>
+    </div>
+    <p
+      class="text-lg font-bold sm:text-4xl"
+    >
+      Your Cart
+    </p>
+    <p
+      class="text-xl"
+    >
+      3
+       item
+      s
+    </p>
+    <div
+      class="flex flex-col lg:flex-row gap-8"
+    >
+      <div
+        class="flex-1 space-y-6"
+        data-testid="cart-product-list"
+      >
+        <div
+          class="flex flex-col sm:flex-row gap-4 border-b p-4 transition hover:bg-gray-50 w-[95%]"
+          data-testid="cart-item"
+        >
+          <div
+            class="flex justify-between items-start w-full sm:w-auto"
+          >
+            <img
+              alt="Game 1"
+              class="w-full sm:w-72 h-54 sm:h-40 object-cover"
+              src="/game1.png"
+            />
+            <button
+              aria-label="remove Game 1"
+              class="text-gray-400 hover:text-gray-600 transition-colors sm:hidden ml-2"
+            >
+              ✕
+            </button>
+          </div>
+          <div
+            class="flex-1 flex flex-col justify-between mt-2 sm:mt-0"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <p
+                class="text-xs text-gray-400 uppercase"
+              >
+                Action
+              </p>
+              <button
+                aria-label="remove Game 1"
+                class="text-gray-400 hover:text-gray-600 transition-colors hidden sm:block"
+              >
+                ✕
+              </button>
+            </div>
+            <div
+              class="mt-1"
+            >
+              <h2
+                class="font-semibold"
+              >
+                Game 1
+              </h2>
+              <p
+                class="text-gray-400 text-sm mt-1 line-clamp-2"
+              >
+                Awesome game
+              </p>
+              <p
+                class="text-gray-500 text-sm mt-1"
+              >
+                Quantity: 
+                2
+              </p>
+            </div>
+            <div
+              class="flex justify-end mt-2"
+            >
+              <p
+                class="font-semibold"
+              >
+                $
+                200.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row gap-4 border-b p-4 transition hover:bg-gray-50 w-[95%]"
+          data-testid="cart-item"
+        >
+          <div
+            class="flex justify-between items-start w-full sm:w-auto"
+          >
+            <img
+              alt="Game 2"
+              class="w-full sm:w-72 h-54 sm:h-40 object-cover"
+              src="/game2.png"
+            />
+            <button
+              aria-label="remove Game 2"
+              class="text-gray-400 hover:text-gray-600 transition-colors sm:hidden ml-2"
+            >
+              ✕
+            </button>
+          </div>
+          <div
+            class="flex-1 flex flex-col justify-between mt-2 sm:mt-0"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <p
+                class="text-xs text-gray-400 uppercase"
+              >
+                RPG
+              </p>
+              <button
+                aria-label="remove Game 2"
+                class="text-gray-400 hover:text-gray-600 transition-colors hidden sm:block"
+              >
+                ✕
+              </button>
+            </div>
+            <div
+              class="mt-1"
+            >
+              <h2
+                class="font-semibold"
+              >
+                Game 2
+              </h2>
+              <p
+                class="text-gray-400 text-sm mt-1 line-clamp-2"
+              >
+                Another great game
+              </p>
+            </div>
+            <div
+              class="flex justify-end mt-2"
+            >
+              <p
+                class="font-semibold"
+              >
+                $
+                30.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full lg:w-[40%] flex flex-col"
+      >
+        <div
+          class="bg-white border rounded-lg shadow p-6"
+          data-testid="order-summary"
+        >
+          <h2
+            class="font-semibold text-lg mb-1"
+          >
+            Order Summary
+          </h2>
+          <p
+            class="text-gray-500 text-sm mb-6"
+          >
+            3
+             item
+            s
+          </p>
+          <div
+            class="space-y-3 mb-6"
+          >
+            <div
+              class="flex justify-between text-sm"
+            >
+              <span>
+                Game 1
+              </span>
+              <span>
+                $
+                200.00
+              </span>
+            </div>
+            <div
+              class="flex justify-between text-sm"
+            >
+              <span>
+                Game 2
+              </span>
+              <span>
+                $
+                30.00
+              </span>
+            </div>
+          </div>
+          <hr
+            class="border-gray-300 mb-6 w-full"
+          />
+          <div
+            class="flex justify-between font-semibold"
+          >
+            <span>
+              Order Total
+            </span>
+            <span>
+              $
+              230.00
+            </span>
+          </div>
+        </div>
+        <button
+          class="mt-4 w-full bg-gray-700 text-white py-3 rounded-lg hover:bg-gray-800 transition"
+        >
+          Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

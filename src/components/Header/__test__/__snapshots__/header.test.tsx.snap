@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Header matches snapshot 1`] = `
+<div>
+  <header
+    class="flex justify-between items-center px-5 sm:px-5 lg:px-32 py-4 bg-header text-white"
+  >
+    <a
+      href="/"
+    >
+      GamerShop
+    </a>
+    <a
+      href="/cart"
+    >
+      <img
+        alt="cart"
+        class="w-6 h-6 cursor-pointer"
+        height="24"
+        src="/icons/cart.png"
+        width="24"
+      />
+      <span
+        class="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full"
+      >
+        1
+      </span>
+    </a>
+  </header>
+</div>
+`;
